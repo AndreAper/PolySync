@@ -38,8 +38,8 @@
             this.Copy = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this._btnAddTask = new System.Windows.Forms.Button();
+            this._btnRemove = new System.Windows.Forms.Button();
             this._tlpBody.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._dgvSyncTasks)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -122,8 +122,8 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
+            this.flowLayoutPanel1.Controls.Add(this._btnAddTask);
+            this.flowLayoutPanel1.Controls.Add(this._btnRemove);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -131,35 +131,35 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1276, 37);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // button1
+            // _btnAddTask
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Add Task";
-            this.button1.UseVisualStyleBackColor = false;
+            this._btnAddTask.BackColor = System.Drawing.Color.DimGray;
+            this._btnAddTask.FlatAppearance.BorderSize = 0;
+            this._btnAddTask.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this._btnAddTask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._btnAddTask.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this._btnAddTask.Location = new System.Drawing.Point(3, 3);
+            this._btnAddTask.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this._btnAddTask.Name = "_btnAddTask";
+            this._btnAddTask.Size = new System.Drawing.Size(117, 31);
+            this._btnAddTask.TabIndex = 0;
+            this._btnAddTask.Text = "Add Task";
+            this._btnAddTask.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // _btnRemove
             // 
-            this.button2.BackColor = System.Drawing.Color.DimGray;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(123, 3);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 31);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Remove Task";
-            this.button2.UseVisualStyleBackColor = false;
+            this._btnRemove.BackColor = System.Drawing.Color.DimGray;
+            this._btnRemove.FlatAppearance.BorderSize = 0;
+            this._btnRemove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this._btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._btnRemove.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this._btnRemove.Location = new System.Drawing.Point(123, 3);
+            this._btnRemove.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this._btnRemove.Name = "_btnRemove";
+            this._btnRemove.Size = new System.Drawing.Size(117, 31);
+            this._btnRemove.TabIndex = 0;
+            this._btnRemove.Text = "Remove Task";
+            this._btnRemove.UseVisualStyleBackColor = false;
             // 
             // frmMain
             // 
@@ -190,8 +190,8 @@
         private System.Windows.Forms.DataGridViewButtonColumn Copy;
         private System.Windows.Forms.DataGridViewButtonColumn Edit;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button _btnAddTask;
+        private System.Windows.Forms.Button _btnRemove;
     }
 }
 
