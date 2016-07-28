@@ -17,5 +17,7 @@ namespace PolySync
         public int Interval { get; set; }
 
         public TimeSpan Time { get; set; }
+
+        public bool Enabled { get; set; }
     }
 }
